@@ -46,7 +46,7 @@ export function init(){
   renderer.setPixelRatio( window.devicePixelRatio );
   renderer.setSize(WIDTH, HEIGHT);
   renderer.shadowMapEnabled = true;
-  container = document.getElementById('world');
+  container = document.getElementById('lionworld');
   container.appendChild(renderer.domElement);
   windowHalfX = WIDTH / 2;
   windowHalfY = HEIGHT / 2;
