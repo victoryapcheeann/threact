@@ -3,12 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@tweenjs/tween.js": "^17.2.0",
+    "dat.gui": "^0.7.2",
     "gsap": "^2.0.2",
     "react": "^16.4.2",
     "react-css-modules": "^4.7.7",
     "react-dom": "^16.4.2",
     "react-flip-toolkit": "^4.0.2",
     "react-scripts": "1.1.5",
+    "stats.js": "^0.17.0",
+    "three-bas": "^2.7.0",
     "three.js": "^0.77.1"
   },
   "scripts": {
@@ -16,5 +20,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0"
   }
 }
